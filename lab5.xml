@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="lab5.xsl" ?>
+
+<students>
+    
+    <student>
+        <name>David</name>
+        <gender>Male</gender>
+        <age>23</age>
+    </student>
+    
+    <student>
+        <name>Jessica</name>
+        <gender>Female</gender>
+        <age>47</age>
+    </student>
+    
+    <student>
+        <name>Warren</name>
+        <gender>Male</gender>
+        <age>12</age>
+    </student>
+
+</students>
