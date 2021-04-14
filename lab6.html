@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Web Programlama</h1>
+    <h2 id="h2isim"></h2>
+
+    <input onchange="isim_degisti()" type="text" id="isim" value="">
+
+    <button onclick="buton_aksiyonu()">TIKLA</button>
+
+</body>
+
+<script language="javascript" type="text/javascript">
+
+    function buton_aksiyonu() {
+        alert("Gönderildi!");
+    }
+
+    function isim_degisti() {
+        var isim_inputu = document.getElementById("isim");
+        // alert("Hoşgeldiniz " + isim_input.value + "!");
+
+        var h2isim = document.getElementById("h2isim");
+        h2isim.innerText = "Hoşgeldiniz " + isim_inputu.value + "!";
+
+    }
+</script>
+
+</html>
